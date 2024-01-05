@@ -1,0 +1,130 @@
+:root {
+    --brand-bg-color: #444A34;
+    --brand-font-color: #4D533C;
+    --active-color: #FFD723;
+    --inactive-color: #D4D6D4;
+    --base-text-color: #21384299;
+    --base-bg-color: #F2F2F2;
+    --white-color: #FFFFFF;
+    --footer-color: #D6C197;
+    --copyright-color: #B5C096;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    background-color: var(--base-bg-color);
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    color: var(--base-text-color);
+}
+
+.hero {
+    max-width: 1441px;
+    padding-top: 24px;
+    padding-left: 165px;
+    padding-right: 165px;
+    height: 810px;
+    background-image: url(../images/Image-for-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--brand-bg-color);
+    color: var(--white-color);
+}
+
+.hero-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.hero-btn {
+    background-color: #F5F6F7;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.hero-main-span {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 22px;
+}
+
+.hero-main {
+    max-width: 615px;
+}
+
+.hero-title {
+    font-size: 60px;
+    line-height: 1.23;
+    margin-bottom: 24px;
+}
+
+.hero-main-about {
+    font-size: 16px;
+    line-height: 1.63;
+    margin-bottom: 45px;
+}
+
+.hero-main-link {
+    /* display: flex;
+    align-items: center; */
+    color: var(--inactive-color);
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: underline;
+}
+
+.hero-main-link-before {
+    vertical-align: middle;
+    fill: currentColor;
+}
+
+.hero-main-link:hover {
+    color: var(--active-color);
+}
