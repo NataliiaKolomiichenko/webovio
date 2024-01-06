@@ -57,6 +57,8 @@ body {
 }
 
 .container {
+    margin-right: auto;
+    margin-left: auto;
     padding-left: 15px;
     padding-right: 15px;
     color: var(--base-text-color);
@@ -128,3 +130,18 @@ body {
 .hero-main-link:hover {
     color: var(--active-color);
 }
+
+.clients {
+    max-width: 1276px;
+    padding-top: 60px;
+    padding-bottom: 54px;
+    padding-left: 65px;
+    background-color: var(--white-color);
+}
+
+.clients-list {
+    display: flex;
+    gap: 66px;
+}
+
+/* 156x113 */
